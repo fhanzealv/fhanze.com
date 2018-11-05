@@ -1,0 +1,67 @@
+
+#header-blog{height:90px;position:relative;overflow:hidden;padding:10px 0;background:#343a40 url(https://rawcdn.githack.com/fhanzealv/fhanze.com/e27964091efae03d8b99d4ec0cba1e584dbc7692/bannerfhanze.png);}
+.header-content{margin:0 auto;overflow:hidden;height:90px;    width: 1285px;}
+.header-logo{max-width:1000px;max-height:120px;margin:17px 0 0;float:left;overflow:hidden}
+.header-logo img{height:auto;max-height:60px;margin:0;max-width:100%}
+.Header h1{color:$(main.dark.color);margin:0;font-size:20px;line-height:1.3em}
+.header-desc{width:728px;max-width:100%;max-height:90px;float:right;margin:0}
+#main-nav{background-color:#343a40;position:relative;width:100%;z-index:9999;height:50px;font-size:14px;margin:0 auto;}
+.header-menu{background-color:#343a40;height:50px;margin:0 auto;position:relative;padding:0;    width: 1285px;}
+.is-sticky #main-nav{width:100%!important;max-width:100%;top:0;left:0;margin:0;z-index:999999;transition:all .0s ease;-webkit-transition:all .0s ease;-moz-transition:all .0s ease;-o-transition:all .0s ease}
+.is-sticky{transition:all .0s ease;-webkit-transition:all .0s ease;-moz-transition:all .0s ease;-o-transition:all .0s ease}
+li.li-home{background-color:rgba(255,255,255,0.2);float:left;display:inline-block;padding:0!important;height:50px;width:50px;text-align:center;}
+li.li-home a{color:#EEEEEE;font-size:20px;line-height:46px;max-height:46px;padding: 0!important}
+li.li-home:hover{background-color:$(main.color)}
+li.li-home:hover a{color:#fff}
+#main-nav ul li{position:relative;float:left;height:50px;box-sizing:border-box;padding:0;}
+#main-nav ul li a{float:left;color:#EEEEEE;padding:0 16px;line-height:50px;text-transform:uppercase;font-weight:400;letter-spacing: 0.5px}
+#main-nav ul li:hover{background-color:rgba(255,255,255,0.2);}
+#main-nav ul li:hover a{color:#fff}
+#main-nav ul li.has-children a{padding-right:28px}
+#main-nav ul li.has-children a:after{color:#00d2d6;content:"\f015";font-family:FontAwesome;position:absolute;top:0;right:14px}
+#main-nav ul li ul{display:none;position:absolute;left:0;top:50px;z-index:100;background-color:$(main.dark.color);border-top:0px;box-shadow:0 1px 3px rgba(40,35,40,0.05);transition:all .0s ease;-webkit-transition:all .0s ease;-moz-transition:all .0s ease;-o-transition:all .0s ease}
+#main-nav ul li ul li{height:auto;margin-left:0;display:block;float:none;position:relative;overflow:hidden;line-height:normal;padding:0;border-right:0;border-bottom:1px solid $(main.dark.lite.color)}
+#main-nav ul li ul li:last-child{border-bottom:0}
+#main-nav ul li ul li a{min-width:180px;color:#eee;font-size:12px;font-weight:400;text-transform:capitalize;height:38px;line-height:38px;overflow:hidden;box-sizing:border-box;padding:0 16px;margin-top:0;border:0;transition:all .3s ease!important;-webkit-transition:all .3s ease!important;-moz-transition:all .3s ease!important;-o-transition:all .3s ease!important}
+#main-nav ul li ul li a:after{display:none}
+#main-nav ul li ul li a:hover {background-color:$(main.color);color:#fff!important;padding-left:20px}
+.is-sticky #main-nav{animation-name:slideInDown;animation-duration:.5s;animation-fill-mode:both}
+@keyframes slideInDown {
+from{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}
+to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+
+li.parent:hover > ul{display: block !important}
+#main-nav ul li.parent li{margin-right:0px !important;}
+.search input{color: #000 !important}
+.header-search:hover form{display: block !important;}
+.header-search{position:relative;float:right}
+.header-search li{list-style:none}
+.header-search a.search{background-color:rgba(255,255,255,0.2);cursor:pointer;display:block;height:50px;text-align:center;position:relative;right:0;top:0;width:50px;font-size:14px;border-radius:0}
+.header-search a.search:hover{background-color:rgba(255,255,255,0.2)}
+.header-search a.search:before{color:#ffffff;content:'\f00e';font-family:FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;line-height:50px}
+.header-search a.search:hover:before,.header-search a.search.active:before{color:#fff}
+.header-search a.search.active{background-color:#000;border-left:0;border-radius:0}
+.header-search a.search.active form{display:block}
+.header-search a.search form{display:none;position:absolute;right:50px;top:0;z-index:2}
+.header-search a.search form input{box-shadow:none;height:50px;padding:0 12px;width:160px;background-color:#fff;color:#fff;font-family:inherit;line-height:50px;margin-top:0;border-radius:0;border:0}
+#main-nav .header-search li a{cursor:pointer;-webkit-transition:all .3s ease-out 0;-moz-transition:all .3s ease-out 0;transition:all .3s ease-out 0}
+.ticker .title{float:left;height:40px;background-color:#af0000;font-size:15px;color:#eee;line-height:40px;font-weight:400;overflow:hidden;padding:0 10px}
+.ticker .title .fa{margin-right:10px;transform:rotate(-30deg);-moz-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);-ms-transform:rotate(-30deg);-o-transform:rotate(-30deg)}
+.ticker .widget-content{height:40px;box-sizing:border-box;overfzaA CAgtfrawXDSAWwlow:hidden;padding:0 4px;border:1px solid #eee}
+.ticker .widget-content li{float:left;margin-left:30px;display:inline-block;height:38px;line-height:38px;padding:0}
+.ticker .widget{height:40px;background-color:#fff;max-width:1285px;margin:20px auto;overflow:hidden}
+.tk-thumb{float:left;margin:4px 10px 0 0}
+.tk-img{position:relative;display:block;width:35px;height:30px;overflow:hidden}
+.ticker .post-tag{display:inline-block;background-color:$(main.color);color:#fff;margin-right:10px;font-weight:400;border-radius:2px;height:18px;line-height:18px;padding:0 6px;font-size:10px;text-transform:uppercase;position:relative;margin-top:10px;float:left}
+.ticker .recent-title{font-size:14px;font-weight: 400;display:inline-block}
+.ticker .recent-title a{color:$(main.dark.color)}
+.ticker .recent-title a:hover{color:$(main.color)}
+.tickercontainer,.tickercontainer .mask,ul.newsticker{-webkit-transition:all 0 linear;-moz-transition:all 0 linear;-o-transition:all 0 linear;transition:all 0 linear;list-style:none;margin:0}
+.tickercontainer{margin:0;padding:0;overflow:hidden}
+.tickercontainer .mask{position:relative;overflow:hidden}
+.newsticker{position:relative;list-style-type:none;margin:0;padding:0}
+ul.newsticker{-webkit-transition:all 0s linear;-moz-transition: all 0s linear;-o-transition:all 0s linear;transition:all 0s linear;position:relative;list-style-type:none;margin:0;padding:0}
+.tickeroverlay-left{display:none}
+.tickeroverlay-right{display:none}
+
