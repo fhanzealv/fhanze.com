@@ -1,0 +1,62 @@
+/*------FhanLayout----------*/
+body#layout #outer-wrapper{padding:0;width:1073px}
+body#layout .section h4{color:#333!important}
+body#layout .option{background-color:#2c3e50!important;overflow:hidden!important}
+body#layout .option h4{font-size:16px;padding:4px 0 7px;color:#fff!important}
+body#layout .option .widget{float:left;width:33.33%}
+body#layout .option .widget.locked-widget .widget-content{background-color:#34495e !important;border-color:#455668 !important;color:#fff!important}
+body#layout .option .widget.locked-widget .widget-content a.editlink{color:#fff !important;border:1px solid #233648;border-radius:2px;padding:2px 5px;background-color:#233648}
+body#layout #topnav,body#layout .tm-head{height:auto}
+body#layout .tm-menu{margin:0;width:70%}
+body#layout .social-area{margin:0;width:30%}
+body#layout .header-content,body#layout #header-blog{height:auto;padding:0}
+body#layout .header-logo{float:left;width:30%;max-width:100%;max-height:none;margin:0;padding:0}
+body#layout #logo_blog{background-color:#b57dcc;border-color:#8a52a1}
+body#layout #logo_blog .widget-content{border-color:#8a52a1}
+body#layout .header-desc{width:70%;margin:0}
+body#layout #menu,body#layout #menu1{display:block;background-color:#6dad88;border-color:#338957}
+body#layout #menu .widget-content,body#layout #menu1 .widget-content{border-color:#338957}
+body#layout #main-nav,body#layout .header-menu{height:auto}
+body#layout .header-menu li.li-home,body#layout .header-search{display:none}
+body#layout .header-menu{float:left;width:100%;margin:4px 0 0;padding:0}
+body#layout #content-wrapper{margin:0 auto}
+body#layout .box-sec .widget-content,body#layout .box-sec h2,body#layout #ads-blog{display:block}
+body#layout #main-wrapper{float:left;width:70%;margin:0;padding:0}
+body#layout .posts-title{display:none}
+body#layout #ads-footer{display:block}
+body#layout #sidebar-wrapper{float:right;width:30%;margin:0;padding:5px 0 0;background-color:#f8e244!important}
+body#layout #sidebar-wrapper .section{background-color:#fff;border:1px solid #fff}
+body#layout #sidebar-wrapper .section .widget-content{border-color:#5a7ea2!important}
+body#layout #sidebar-wrapper .section .draggable-widget .widget-wrap2{background-color:#5a7ea2!important}
+body#layout #footer-wrapper{overflow:hidden}
+body#layout .sect-left{width:30%;float:left;margin:0 0 8px 2.2% !important}
+body#layout #social-footer{width:30%;float:right}
+body#layout #unwanted,body#layout #pop-sec,body#layout #contact{display:none!important}
+body#layout .social-footer{list-style:none}
+body#layout #ticker{background-color:#f38d83;border-color:#c5554a}
+body#layout #ticker .widget-content{border-color:#c5554a}
+body#layout #ticker .draggable-widget .widget-wrap2{background-color:#c5554a!important}
+body#layout #featured-sec{background-color:#f9a85f;border-color:#fb8f3d}
+body#layout #featured-sec .widget-content{border-color:#fb8f3d}
+body#layout #featured-sec .draggable-widget .widget-wrap2{background-color:#fb8f3d!important}
+body#layout #main-wrapper #main{margin-right:4px;background-color:#5a7ea2;border-color:#34495e}
+body#layout #main-wrapper #main h4{color:#fff!important}
+body#layout .layout-widget-description{display:none!important}
+body#layout #Blog1 .widget-content{border-color:#34495e}
+body#layout .box-sec{background-color:#7fc1ed!important;border-color:#3498db!important}
+body#layout .box-sec .widget-content{border-color:#3498db}
+body#layout .box-sec .draggable-widget .widget-wrap2{background-color:#3498db!important;cursor:move}
+body#layout #sidebar{margin-top:10px}
+body#layout #sidetabs{overflow:hidden;background-color:#e9d33c}
+body#layout #tabside1,body#layout #tabside2,body#layout #tabside3{width:44%;float:left}
+body#layout #HTML301 .widget-content,body#layout #HTML300 .widget-content{background-color:#2c3e50;color:#fff!important;border-color:#2c3e50}
+body#layout #LinkList62 .widget-content,body#layout #LinkList20 .widget-content,body#layout #LinkList50 .widget-content{background-color:#34495e!important;border-color:#34495e!important;color:#fff!important}
+body#layout #LinkList62 .widget-content .editlink,body#layout #HTML301 .widget-content .editlink,body#layout #LinkList20 .widget-content .editlink,body#layout #LinkList50 .widget-content .editlink,body#layout #HTML300 .widget-content .editlink{color:#fff !important;border:1px solid #233648;border-radius:2px;padding:2px 5px;background-color:#233648}
+body#layout #footer{overflow:hidden;background-color:#1abc9c;padding-top:10px;margin-bottom:10px}
+body#layout #footer:before{content:"Footer Sections";font-size:25px;color:#fff;padding:0 0 10px;text-align:center;display:block;font-family:raleway}
+body#layout #footer .section .widget-content{border-color:#1abc9c}
+body#layout #footer .section .draggable-widget .widget-wrap2{background-color:#1abc9c!important}
+body#layout #ads-content,body#layout #ads-inter,body#layout #ads-home,body#layout #post-ads-footer{background-color:rgba(241,196,16,0.22);border-color:#f1c410}
+body#layout #ads-content .widget-content,body#layout #ads-inter .widget-content,body#layout #ads-home .widget-content,body#layout #post-ads-footer .widget-content{border-color:#f1c410}
+body#layout #ads-content .draggable-widget .widget-wrap2,body#layout #ads-inter .draggable-widget .widget-wrap2,body#layout #ads-home .draggable-widget .widget-wrap2,body#layout #post-ads-footer .draggable-widget .widget-wrap2{background-color:#f1c410!important;cursor:move}
+/*------FhanLayout (end)----------*/
