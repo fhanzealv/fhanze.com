@@ -2044,7 +2044,7 @@ font-weight:normal;
     width: 100%;
     display: block;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 .map-me .con-list li a{
 	color:grey;
